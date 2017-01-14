@@ -1,0 +1,54 @@
+2017-01-14 14:29:50,075 manager INFO 1.1.0
+2017-01-14 14:29:50,075 manager INFO Copyright (C) 2003-2010
+2017-01-14 14:29:50,076 manager INFO   Noriaki Ando
+2017-01-14 14:29:50,076 manager INFO   Intelligent Systems Research Institute, AIST
+2017-01-14 14:29:50,076 manager INFO Manager starting.
+2017-01-14 14:29:50,076 manager INFO Starting local logging.
+2017-01-14 14:29:50,077 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2017-01-14 14:29:50,088 ManagerServant INFO Master manager not found
+2017-01-14 14:29:50,089 manager WARNING Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/Manager.py", line 1900, in initManagerServant
+    reffile = file(self._config.getProperty("manager.refstring_path"),'w')
+IOError: [Errno 13] Permission denied: '/var/log/rtcmanager.ref'
+
+2017-01-14 14:29:50,089 LocalServiceAdmin INFO All the local services are enabled.
+2017-01-14 14:29:50,092 manager INFO Component type conf file: ObjTester.conf loaded.
+2017-01-14 14:29:50,093 ec_base INFO setRate(1000000.000000) done
+2017-01-14 14:29:50,094 ec_base INFO setRate(1000.000000) done
+2017-01-14 14:29:50,094 rtobject INFO 1 execution context was created.
+2017-01-14 14:29:50,095 rtobject INFO Initial active configuration set is default-set.
+2017-01-14 14:29:54,052 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2017-01-14 14:29:54,052 SdoServiceAdmin ERROR type  already exists.
+2017-01-14 14:29:54,189 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2017-01-14 14:29:54,189 SdoServiceAdmin ERROR type 89978881-b8ec-47e0-b430-1819d5023332 already exists.
+2017-01-14 14:37:08,924 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2017-01-14 14:47:38,705 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2017-01-14 14:58:02,795 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2017-01-14 15:08:13,850 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2017-01-14 15:08:13,850 SdoServiceAdmin ERROR type  already exists.
+2017-01-14 15:08:13,852 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2017-01-14 15:08:13,852 SdoServiceAdmin ERROR type 8443247a-89b7-49b6-91dd-ebd6945ad106 already exists.
+2017-01-14 15:09:24,302 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2017-01-14 15:10:21,737 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2017-01-14 15:10:21,737 SdoServiceAdmin ERROR type  already exists.
+2017-01-14 15:10:21,738 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2017-01-14 15:10:21,738 SdoServiceAdmin ERROR type 29284252-b166-4ed8-8c26-cafb7dbcaed7 already exists.
+2017-01-14 15:10:21,859 ec_base INFO setRate(1000.000000) done
+2017-01-14 15:14:36,004 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2017-01-14 15:14:36,004 SdoServiceAdmin ERROR type  already exists.
+2017-01-14 15:14:36,005 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2017-01-14 15:14:36,005 SdoServiceAdmin ERROR type 54cdca0d-54be-4c1b-9871-02ddff93babe already exists.
+2017-01-14 15:14:36,125 ec_base INFO setRate(1000.000000) done
+2017-01-14 15:14:37,208 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2017-01-14 15:21:03,771 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2017-01-14 15:21:03,772 SdoServiceAdmin ERROR type  already exists.
+2017-01-14 15:21:03,772 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2017-01-14 15:21:03,772 SdoServiceAdmin ERROR type 34e1a4e5-473e-4897-a3f7-e860d3c25843 already exists.
+2017-01-14 15:21:03,922 ec_base INFO setRate(1000.000000) done
+2017-01-14 15:21:05,023 ec_worker ERROR State of the RTC is not INACTIVE_STATE.
+2017-01-14 15:28:14,967 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2017-01-14 15:28:14,967 SdoServiceAdmin ERROR type  already exists.
+2017-01-14 15:28:14,968 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2017-01-14 15:28:14,968 SdoServiceAdmin ERROR type 341e507c-16fc-4134-8d5d-7a230f81ce16 already exists.
+2017-01-14 15:28:15,097 ec_base INFO setRate(1000.000000) done
+2017-01-14 15:28:17,028 ec_worker ERROR State of the RTC is not INACTIVE_STATE.

@@ -1,0 +1,41 @@
+2017-01-14 11:12:03,497 manager INFO 1.1.0
+2017-01-14 11:12:03,497 manager INFO Copyright (C) 2003-2010
+2017-01-14 11:12:03,497 manager INFO   Noriaki Ando
+2017-01-14 11:12:03,497 manager INFO   Intelligent Systems Research Institute, AIST
+2017-01-14 11:12:03,497 manager INFO Manager starting.
+2017-01-14 11:12:03,497 manager INFO Starting local logging.
+2017-01-14 11:12:03,499 manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2017-01-14 11:12:03,502 ManagerServant INFO Master manager not found
+2017-01-14 11:12:03,502 manager WARNING Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/Manager.py", line 1900, in initManagerServant
+    reffile = file(self._config.getProperty("manager.refstring_path"),'w')
+IOError: [Errno 13] Permission denied: '/var/log/rtcmanager.ref'
+
+2017-01-14 11:12:03,502 LocalServiceAdmin INFO All the local services are enabled.
+2017-01-14 11:12:03,505 manager INFO Component type conf file: ObjTester.conf loaded.
+2017-01-14 11:12:03,506 ec_base INFO setRate(1000000.000000) done
+2017-01-14 11:12:03,506 ec_base INFO setRate(1000.000000) done
+2017-01-14 11:12:03,507 rtobject INFO 1 execution context was created.
+2017-01-14 11:12:03,508 rtobject INFO Initial active configuration set is default-set.
+2017-01-14 11:12:13,202 SdoServiceAdmin WARNING No available SDO service in the factory: 
+2017-01-14 11:12:13,202 SdoServiceAdmin ERROR type  already exists.
+2017-01-14 11:12:13,203 SdoServiceAdmin WARNING No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+2017-01-14 11:12:13,203 SdoServiceAdmin ERROR type abcbce3c-63f7-4532-a3a1-908e53e2bb56 already exists.
+2017-01-14 11:12:13,213 ec_base INFO setRate(1000.000000) done
+2017-01-14 11:12:17,247 ObjectDetectionService WARNING Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/PortBase.py", line 2262, in checkPorts
+    if port._non_existent():
+  File "/usr/lib/python2.7/dist-packages/omniORB/CORBA.py", line 775, in _non_existent
+    return _omnipy.nonExistent(self)
+COMM_FAILURE: CORBA.COMM_FAILURE(omniORB.COMM_FAILURE_WaitingForReply, CORBA.COMPLETED_MAYBE)
+
+2017-01-14 11:12:17,247 ObjectDetectionService WARNING Dead connection: 84417990-d9f5-11e6-ad72-8c89a5e21530
+2017-01-14 11:12:17,248 ObjectDetectionService WARNING Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/PortBase.py", line 1624, in disconnectNext
+    return p.notify_disconnect(connector_profile.connector_id)
+  File "/usr/lib/python2.7/dist-packages/OpenRTM_aist/RTM_IDL/RTC_idl.py", line 1226, in notify_disconnect
+    return _omnipy.invoke(self, "notify_disconnect", _0_RTC.PortService._d_notify_disconnect, args)
+TRANSIENT: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)
+
+2017-01-14 11:12:22,611 ec_worker WARNING ExecutionContext is already stopped.
+2017-01-14 11:12:22,611 ec_base ERROR Invoking on_shutdown() for each RTC failed.
