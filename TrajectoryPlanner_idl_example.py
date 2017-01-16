@@ -32,12 +32,12 @@ class ObjectDetectionService_i (Manipulation__POA.ObjectDetectionService):
     def detectObject(self, objectID):
         objInfo = Manipulation.ObjectInfo(Manipulation.ObjectIdentifier(objectID.name),RTC.Pose3D(RTC.Point3D(2.0,2.0,2.0), RTC.Orientation3D(2.0,2.0,2.0)))
 
-        objInfo.pose.position.x =0.500
+        objInfo.pose.position.x =0.40
         objInfo.pose.position.y =0.0
-        objInfo.pose.position.z =0.60
-        objInfo.pose.orientation.p =0.0
-        objInfo.pose.orientation.r =0.0
-        objInfo.pose.orientation.y =0.0       
+        objInfo.pose.position.z =0.62
+        objInfo.pose.orientation.p =1.56#118.0
+        objInfo.pose.orientation.r =3.14#1.54#0.0
+        objInfo.pose.orientation.y =3.14#2.717      
 
 	print isinstance(objInfo, Manipulation.ObjectInfo)
         print objInfo
